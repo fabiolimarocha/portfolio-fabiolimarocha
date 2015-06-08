@@ -1,0 +1,296 @@
+
+/* Begin Common */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+
+body{background: #fff; overflow: hidden;}
+
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+
+textarea {resize: none;}
+
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+input:focus, textarea:focus{ outline: none; }
+
+em, i{font-style:italic}
+
+/**
+* Font normalization inspired by YUI Library's fonts.css: developer.yahoo.com/yui/
+*/
+
+
+select, input, textarea, button { font:99% sans-serif; }
+
+/* Normalize monospace sizing:
+  en.wikipedia.org/wiki/MediaWiki_talk:Common.css/Archive_11#Teletype_style_fix_for_Chrome */
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+
+/**
+* Minimal base styles.
+*/
+
+/* Always force a scrollbar in non-IE */
+html { overflow-y: scroll; }
+
+/* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active { outline: none; }
+
+ul, ol { margin-left: 2em; }
+ol { list-style-type: decimal; }
+
+/* Remove margins para navigation lists */
+nav ul, nav li, ul, li { margin: 0; list-style:none; list-style-image: none; }
+
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+
+td { vertical-align: top; }
+
+/* Set sub, sup without affecting line-height: gist.github.com/413930 */
+sub, sup { font-size: 75%; line-height: 0; position: relative; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+pre {
+ /* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
+ white-space: pre; white-space: pre-wrap; word-wrap: break-word;
+ padding: 15px;
+}
+
+textarea { overflow: auto; } /* www.sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars/ */
+
+.ie6 legend, .ie7 legend { margin-left: -7px; } 
+
+/* Align checkboxes, radios, text inputs with their label by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+
+/* Hand cursor on clickable input elements */
+input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea { margin: 0; }
+
+/* Colors for form validity */
+input:valid, textarea:valid   {  }
+input:invalid, textarea:invalid {
+  border-radius: 1px; -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red; box-shadow: 0px 0px 5px red;
+}
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+
+/* These selection declarations have to be separate
+  No text-shadow: twitter.com/miketaylr/status/12228805301
+  Also: hot pink! */
+::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
+::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+
+/* j.mp/webkit-tap-highlight-color */
+a:link { -webkit-tap-highlight-color: #FF5E99; }
+
+/* Make buttons play nice in IE:
+  www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+button {  width: auto; overflow: visible; }
+
+/* Bicubic resizing for non-native sized IMG:
+  code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+/**
+* You might tweak these..
+*/
+
+body, select, input, textarea {
+ color: #444;
+}
+
+/* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
+
+
+a, a:active, a:visited { }
+a:hover {  }
+a{text-decoration:none}
+
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+/* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+.clearfix { zoom: 1; }
+.show{display:block !important}
+.hide{display:none !important}
+.left{float:left !important}
+.right{float:right !important}
+.clear{clear:both !important}
+.rpl{display:block;text-indent:-9999px}
+.block{display:block!important;}
+.see_more, .see_all{font: 11px NiteweitBold, arial, sans-serif; color:#F10E0E; text-transform: uppercase;}
+.center{text-align:center!important;}
+
+@font-face {
+   font-family: 'Whitney Bold';
+   src: url('../fonts/Whitney-Bold_1.eot');
+   src: url('../fonts/Whitney-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Whitney-Bold_1.woff') format('woff'),
+        url('../fonts/Whitney-Bold_1.ttf') format('truetype'),
+        url('../fonts/Whitney-Bold_1.svg#Whitney-Bold_1') format('svg');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'Whitney Book';
+   src: url('../fonts/Whitney-Book_1.eot');
+   src: url('../fonts/Whitney-Book_1.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Whitney-Book_1.woff') format('woff'),
+        url('../fonts/Whitney-Book_1.ttf') format('truetype'),
+        url('../fonts/Whitney-Book_1.svg#Whitney-Book_1') format('svg');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'Whitney Semibold';
+   src: url('../fonts/Whitney-Semibold_1.eot');
+   src: url('../fonts/Whitney-Semibold_1.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Whitney-Semibold_1.woff') format('woff'),
+        url('../fonts/Whitney-Semibold_1.ttf') format('truetype'),
+        url('../fonts/Whitney-Semibold_1.svg#Whitney-Semibold_1') format('svg');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+/* Header(begin) */
+
+header{height: 600px; /*background: #70bfda;*/ background: url("../imgs/bg-header.jpg") no-repeat center #70bfda; background-size: cover; background-attachment:fixed; }
+header .wrap-logo{width: 300px; margin: 140px auto 0; }
+header .wrap-logo .logo{width: 200px; height: 200px; margin: 0 auto; background: #fff; border-radius: 100%; overflow: hidden;}
+header .wrap-logo .logo img{width: 100%;}
+header .wrap-logo .info{margin-top: 20px;}
+header .wrap-logo .info h1{color: #fff; text-align: center; font-size: 36px; font-family: "Whitney Book", arial, sans-serif; text-shadow:2px 2px 5px #353535;}
+header .wrap-logo .info h2{color: #fff; text-align: center; font-size: 28px; font-family: "Whitney Book", arial, sans-serif; text-shadow:2px 2px 5px #353535;}
+
+/* Header(end) */
+
+/* Nav menu (begin) */
+
+nav{width: 100%; position: fixed; top: 0; padding: 10px 0 1px; background: url("../imgs/bg-nav.png"); z-index: 9999;}
+
+nav .logo-mini{width: 53px; height: 53px; background: #fff; margin-left: 30px; border-radius: 100%; overflow: hidden; float: left; display: none;}
+nav .logo-mini img{width: 100%;}
+
+nav a.icon-menu{width: 53px; height: 62px; display: block; margin-left: 30px; float: left; background: url("../imgs/icon-menu-white.png") no-repeat 0 -1px;}
+nav ul.menu {list-style: none; float: left; width: 100%; position: absolute; left: 0; top: 72px; display: none; padding-left: 30px; padding-bottom: 25px; background: url("../imgs/bg-nav-menu.png"); border-bottom: 3px solid #fff;}
+nav ul.menu span{font-size: 22px; color: #777; font-family: "Whitney Book", arial, sans-serif;}
+nav ul.menu span:first-child{padding-top: 25px; display: block;}
+nav ul.menu li{margin-left: 20px;}
+nav ul.menu li a{text-decoration: none; text-align: left; font-size: 24px; color: #353535; font-family: "Whitney Semibold", arial, sans-serif; margin-bottom: 10px;}
+
+nav ul.redessociais{list-style: none; float: right; margin-right: 30px;}
+nav ul.redessociais li{float: left; margin-right: 10px;}
+nav ul.redessociais li:last-child{margin-right: 0;}
+nav ul.redessociais li a{width: 53px; height: 53px; display: block; background: url("../imgs/sprite-redessociais-white.png");}
+nav ul.redessociais li a.icon-facebook{background-position: -7px -4px}
+nav ul.redessociais li a.icon-twitter{background-position: -62px -4px;}
+nav ul.redessociais li a.icon-linkedin{background-position: -118px -4px;}
+nav ul.redessociais li a.icon-youtube{background-position: -173px -4px;}
+
+/* Nav menu (end) */
+
+/* Corpo (begin) */
+
+.content{width: 1600px; margin: 0 auto; padding: 40px 0 120px; position: relative;}
+
+.wrap-container{height: auto;}
+
+.wrap-container section{height: auto; border-top:1px solid #ccc;}
+.wrap-container section h1{text-align: center; font-size: 32px; color: #353535; font-family: "Whitney Semibold", arial, sans-serif; margin-bottom: 60px;}
+.wrap-container section h1 span{font-size: 28px; color: #777; font-family: "Whitney Book", arial, sans-serif;}
+
+.wrap-container section.sobre{}
+.wrap-container section.sobre p{color: #353535; text-align: justify; font-size: 22px; font-family: "Whitney Book", arial, sans-serif; margin-bottom: 20px;}
+
+.wrap-container section.portfolio{}
+
+/* carousel */
+
+.carousel-portfolio .crop-owl-portfolio{width:800px;}
+.carousel-portfolio .crop-owl-portfolio img{width: 100%;}
+.carousel-portfolio h2{color: #353535; text-align: center; font-size: 36px; font-family: "Whitney Book", arial, sans-serif; margin-top: 20px;}
+.carousel-portfolio p{color: #353535; text-align: center; font-size: 18px; font-family: "Whitney Book", arial, sans-serif; }
+.carousel-portfolio span{color: #70bfda; margin-top: 20px; text-align: center; display: block; font-size: 18px; font-family: "Whitney Book", arial, sans-serif; }
+
+.wrap-container .carousel-portfolio .prev {background: url("../imgs/seta-left.png") repeat; cursor: pointer; display: block; float: left; height: 194px; position: absolute; left: 40px; top: 410px; width: 43px;}
+.wrap-container .carousel-portfolio .next {background: url("../imgs/seta-right.png") repeat; cursor: pointer; display: block; float: right; height: 194px; position: absolute; right: 40px; top: 410px; width: 43px;}
+/* carousel */
+
+.wrap-container section.contato{background: url("../imgs/bg-quadrinhos-opacity.png");}
+.wrap-container section.contato form{width: 400px; margin:0px auto 20px}
+.wrap-container section.contato form label{display: block; color: #353535; text-align: left; font-size: 22px; font-family: "Whitney Book", arial, sans-serif;}
+.wrap-container section.contato form input{width: 400px; border:1px solid #ccc; display: block; color: #353535; text-align: left; font-size: 22px; font-family: "Whitney Book", arial, sans-serif;}
+.wrap-container section.contato form textarea{width: 400px; height: 200px; border:1px solid #ccc; display: block; color: #353535; text-align: left; font-size: 22px; font-family: "Whitney Book", arial, sans-serif;}
+.wrap-container section.contato form input.btn-enviar{width: auto; margin-top: 20px; padding: 8px 10px; border:1px solid #000; display: block; color: #fff; background: #353535; text-align: center; font-size: 16px; font-family: "Whitney Book", arial, sans-serif;}
+input[type="text"]:focus, textarea:focus{border-color: #70bfda !important; box-shadow:0 0 2px #70bfda;}
+.wrap-container section.contato p{color: #353535; text-align: center; margin: 20px 0; font-size: 20px; font-family: "Whitney Book", arial, sans-serif; }
+.wrap-container section.contato span.fecha-chave{font-size: 28px; text-align: center; display: block; color: #777; font-family: "Whitney Book", arial, sans-serif;}
+
+/* Corpo (end) */
+
+/* Footer (begin) */
+
+footer{height: 50px; background: #353535; position: relative;}
+footer .content{padding: 0;}
+footer p{color: #fff; top: 14px; position: relative; text-align: left; float: left; font-size: 18px; font-family: "Whitney Book", arial, sans-serif;}
+footer a#voltar-topo{position: relative; display: block; text-decoration: none; top: 14px; float:right; color: #fff; text-align: left; font-size: 18px; font-family: "Whitney Book", arial, sans-serif;}
+
+/* Footer (end) */
+
+
+
+
+
+
+
