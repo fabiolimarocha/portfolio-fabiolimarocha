@@ -270,7 +270,7 @@ nav ul.redessociais li a.icon-youtube{background-position: -173px -4px;}
 .wrap-container section.contato{background: url("../imgs/bg-quadrinhos-opacity.png");}
 .wrap-container section.contato form{width: 400px; margin:0px auto 20px}
 .wrap-container section.contato form label{display: block; color: #353535; text-align: left; font-size: 22px; font-family: "Whitney Book", arial, sans-serif;}
-.wrap-container section.contato form input{width: 400px; border:1px solid #ccc; display: block; color: #353535; text-align: left; font-size: 22px; font-family: "Whitney Book", arial, sans-serif;}
+.wrap-container section.contato form input{width: 400px; margin-bottom: 15px; border:1px solid #ccc; display: block; color: #353535; text-align: left; font-size: 22px; font-family: "Whitney Book", arial, sans-serif;}
 .wrap-container section.contato form textarea{width: 400px; height: 200px; border:1px solid #ccc; display: block; color: #353535; text-align: left; font-size: 22px; font-family: "Whitney Book", arial, sans-serif;}
 .wrap-container section.contato form input.btn-enviar{width: auto; margin-top: 20px; padding: 8px 10px; border:1px solid #000; display: block; color: #fff; background: #353535; text-align: center; font-size: 16px; font-family: "Whitney Book", arial, sans-serif;}
 input[type="text"]:focus, textarea:focus{border-color: #70bfda !important; box-shadow:0 0 2px #70bfda;}
@@ -284,7 +284,7 @@ input[type="text"]:focus, textarea:focus{border-color: #70bfda !important; box-s
 footer{height: 50px; background: #353535; position: relative;}
 footer .content{padding: 0;}
 footer p{color: #fff; top: 14px; position: relative; text-align: left; float: left; font-size: 18px; font-family: "Whitney Book", arial, sans-serif;}
-footer a#voltar-topo{position: relative; display: block; text-decoration: none; top: 14px; float:right; color: #fff; text-align: left; font-size: 18px; font-family: "Whitney Book", arial, sans-serif;}
+footer a#voltar-topo{position: relative; cursor:pointer; display: block; text-decoration: none; top: 14px; float:right; color: #fff; text-align: left; font-size: 18px; font-family: "Whitney Book", arial, sans-serif;}
 
 /* Footer (end) */
 
