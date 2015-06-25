@@ -4,6 +4,7 @@ $(document).ready(function() {
 
   ExibeMenu();
   Nav_AlternaCor();
+  ScrollAncoras();
   CarouselPortfolio();
   VoltarAoTopo();
 
@@ -36,6 +37,16 @@ function Nav_AlternaCor(){
   }); 
 }
 // === Script para alterar cor do nav menu  (end)
+
+// === Script ancora do menu (begin) 
+function ScrollAncoras(){
+   $('.scroll_ancoras').click(function(){
+      var alvo = $(this).attr('href').split('#').pop();
+      $('html, body').animate({scrollTop: $('#'+alvo).offset().top - 102}, 2000);
+      return false;
+   });
+}
+// === Script ancora do menu (end)
 
 // === Carousel Portfolio (begin) 
 function CarouselPortfolio(){

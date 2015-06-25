@@ -27,13 +27,13 @@
 	<!-- Chamada Google Analytics (end) -->
 
 	</head>
-	<body>
+	<body id="home">
 
 		<header class="clearfix">
 
 			<div class="wrap-logo">
 				<div class="logo">
-					<a name="home"><img src="imgs/logo.png" alt="Fábio Lima Rocha - Web Developer" title="Fábio Lima Rocha - Web Developer"></a>
+					<a><img src="imgs/logo.png" alt="Fábio Lima Rocha - Web Developer" title="Fábio Lima Rocha - Web Developer"></a>
 				</div>
 				<div class="info">
 					<h1>Fábio Lima Rocha</h1>
@@ -50,10 +50,10 @@
 				<ul class="menu">
 					<span>$(document).ready(function() {</span>
 
-					<li><a href="#home">Home();</a></li>
-					<li><a href="#sobre">Sobre();</a></li>
-					<li><a href="#portfolio">Portfolio();</a></li>
-					<li><a href="#contato">Contato();</a></li>
+					<li><a href="#home" class="scroll_ancoras">Home();</a></li>
+					<li><a href="#sobre" class="scroll_ancoras">Sobre();</a></li>
+					<li><a href="#portfolio" class="scroll_ancoras">Portfolio();</a></li>
+					<li><a href="#contato" class="scroll_ancoras">Contato();</a></li>
 
 					<span>});</span>
 				</ul>
@@ -74,7 +74,7 @@
 
 			<section class="sobre">
 				<div class="content clearfix">
-					<h1><a name="sobre"><span>function</span> Sobre() <span>{</span></a></h1>
+					<h1><a id="sobre"><span>function</span> Sobre() <span>{</span></a></h1>
 
 					<p>Hi ;)</p>
 
@@ -91,7 +91,7 @@
 
 			<section class="portfolio">
 				<div class="content clearfix">
-					<h1><a name="portfolio"><span>} function</span> Portfolio() <span>{</span></a></h1>
+					<h1><a id="portfolio"><span>} function</span> Portfolio() <span>{</span></a></h1>
 
 					<!-- carousel (begin) -->
 					<div class="carousel-portfolio">
@@ -132,15 +132,15 @@
 
 			<section class="contato">
 				<div class="content clearfix">
-					<h1><a name="contato"><span>} function</span> Contato() <span>{</span></a></h1>
+					<h1><a id="contato"><span>} function</span> Contato() <span>{</span></a></h1>
 
 					<form>
 						<label>Nome:</label>
-						<input type="text" name="nome" id="nome">
+						<input type="text" name="nome" id="nome" required>
 						<label>E-mail:</label>
-						<input type="text" name="email" id="email">
+						<input type="text" name="email" id="email" required>
 						<label>Mensagem:</label>
-						<textarea id="mensagem"></textarea>
+						<textarea id="mensagem" required></textarea>
 						<input type="submit" class="btn-enviar" name="enviar" value="Enviar">
 					</form>
 
