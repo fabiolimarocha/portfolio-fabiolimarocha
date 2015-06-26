@@ -257,14 +257,14 @@ nav ul.redessociais li a.icon-youtube{background-position: -173px -4px;}
 
 /* carousel */
 
-.carousel-portfolio .crop-owl-portfolio{width:800px;}
+.carousel-portfolio .crop-owl-portfolio{width:560px;}
 .carousel-portfolio .crop-owl-portfolio img{width: 100%;}
-.carousel-portfolio h2{color: #353535; text-align: center; font-size: 36px; font-family: "Whitney Book", arial, sans-serif; margin-top: 20px;}
-.carousel-portfolio p{color: #353535; text-align: center; font-size: 18px; font-family: "Whitney Book", arial, sans-serif; }
-.carousel-portfolio span{color: #70bfda; margin-top: 20px; text-align: center; display: block; font-size: 18px; font-family: "Whitney Book", arial, sans-serif; }
+.carousel-portfolio h2{color: #353535; text-align: center; font-size: 32px; font-family: "Whitney Book", arial, sans-serif; margin-top: 20px;}
+.carousel-portfolio p{color: #353535; text-align: center; font-size: 16px; font-family: "Whitney Book", arial, sans-serif; }
+.carousel-portfolio span{color: #70bfda; margin-top: 20px; text-align: center; display: block; font-size: 16px; font-family: "Whitney Book", arial, sans-serif; }
 
-.wrap-container .carousel-portfolio .prev {background: url("../imgs/seta-left.png") repeat; cursor: pointer; display: block; float: left; height: 194px; position: absolute; left: 40px; top: 410px; width: 43px;}
-.wrap-container .carousel-portfolio .next {background: url("../imgs/seta-right.png") repeat; cursor: pointer; display: block; float: right; height: 194px; position: absolute; right: 40px; top: 410px; width: 43px;}
+.wrap-container .carousel-portfolio .prev {background: url("../imgs/seta-left.png") repeat; cursor: pointer; display: block; float: left; height: 194px; position: absolute; left: 40px; top: 320px; width: 43px;}
+.wrap-container .carousel-portfolio .next {background: url("../imgs/seta-right.png") repeat; cursor: pointer; display: block; float: right; height: 194px; position: absolute; right: 40px; top: 320px; width: 43px;}
 /* carousel */
 
 .wrap-container section.contato{background: url("../imgs/bg-quadrinhos-opacity.png");}

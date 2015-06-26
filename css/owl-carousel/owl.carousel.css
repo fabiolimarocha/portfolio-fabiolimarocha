@@ -16,7 +16,7 @@
 .owl-carousel{
 	display: none;
 	position: relative;
-	width: 800px;
+	width: 560px;
 	margin: 0 auto;
 	-ms-touch-action: pan-y;
 }
@@ -28,7 +28,7 @@
 .owl-carousel .owl-wrapper-outer{
 	overflow: hidden;
 	position: relative;
-	width: 800px;
+	width: 560px;
 }
 .owl-carousel .owl-wrapper-outer.autoHeight{
 	-webkit-transition: height 500ms ease-in-out;
