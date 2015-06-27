@@ -57,7 +57,7 @@ function CarouselPortfolio(){
       responsive: false,
       slideSpeed : 1000,
       pagination : false,
-      autoPlay: true
+      autoPlay: false
     });
     // Custom Navigation Events
     $this.parent().find(".next").click(function(){
