@@ -224,7 +224,7 @@ nav .logo-mini img{width: 100%;}
 
 nav a.icon-menu{width: 53px; height: 62px; display: block; margin-left: 30px; float: left; background: url("../imgs/icon-menu-white.png") no-repeat 0 -1px;}
 nav ul.menu {list-style: none; float: left; width: 100%; position: absolute; left: 0; top: 72px; display: none; padding-left: 30px; padding-bottom: 25px; background: url("../imgs/bg-nav-menu.png"); border-bottom: 3px solid #fff;}
-nav ul.menu span{font-size: 22px; color: #777; font-family: "Whitney Book", arial, sans-serif;}
+nav ul.menu span{font-size: 18px; color: #777; font-family: "Whitney Book", arial, sans-serif;}
 nav ul.menu span:first-child{padding-top: 25px; display: block;}
 nav ul.menu li{margin-left: 20px;}
 nav ul.menu li a{text-decoration: none; text-align: left; font-size: 24px; color: #353535; font-family: "Whitney Semibold", arial, sans-serif; margin-bottom: 10px;}
@@ -242,13 +242,13 @@ nav ul.redessociais li a.icon-youtube{background-position: -173px -4px;}
 
 /* Corpo (begin) */
 
-.content{width: 1600px; margin: 0 auto; padding: 40px 0 120px; position: relative;}
+.content{width: 1600px; margin: 0 auto; padding: 50px 0 50px; position: relative;}
 
 .wrap-container{height: auto;}
 
 .wrap-container section{height: auto; border-top:1px solid #ccc;}
 .wrap-container section h1{text-align: center; font-size: 32px; color: #353535; font-family: "Whitney Semibold", arial, sans-serif; margin-bottom: 60px;}
-.wrap-container section h1 span{font-size: 28px; color: #777; font-family: "Whitney Book", arial, sans-serif;}
+.wrap-container section h1 span{font-size: 22px; color: #777; font-family: "Whitney Book", arial, sans-serif;}
 
 .wrap-container section.sobre{}
 .wrap-container section.sobre p{color: #353535; text-align: justify; font-size: 22px; font-family: "Whitney Book", arial, sans-serif; margin-bottom: 20px;}

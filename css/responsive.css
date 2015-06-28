@@ -11,7 +11,7 @@
     /*  
     /* -------------------------------------------------- */
 
-    .content{width: auto; padding: 40px 20px 120px; }
+    .content{width: auto; padding: 50px 20px 50px; }
     footer .content{padding: 0 20px 0;}
 
 
@@ -24,7 +24,7 @@
 	/*	
 	/* -------------------------------------------------- */
 
-	.content{width: auto; padding: 40px 20px 120px; }
+	.content{width: auto; padding: 50px 20px 50px; }
     footer .content{padding: 0 20px 0;}
 
 
@@ -37,7 +37,7 @@
 	/*	
 	/* -------------------------------------------------- */
 
-    .content{width: auto; padding: 40px 20px 120px; }
+    .content{width: auto; padding: 50px 20px 50px; }
     footer .content{padding: 0 20px 0;}
   
 }
@@ -46,11 +46,41 @@
 @media only screen and (max-width: 767px) {
 		
 	/* -------------------------------------------------- */
-	/*	
+	/*	Header
+	/* -------------------------------------------------- */
+    
+    nav .logo-mini{display:none !important;}
+    nav ul.redessociais{margin-right: 20px;}
+    
+    /*menu*/
+    nav a.icon-menu{margin-left: 20px;}
+    nav ul.menu li{margin:5px 0 5px 20px;}
+    
+    /* -------------------------------------------------- */
+	/*	Corpo
 	/* -------------------------------------------------- */
 
-    .content{width: auto; padding: 40px 20px 120px; }
+    .content{width: auto; padding: 50px 20px 50px; }
+    
+    /*portfolio*/
+    .owl-carousel{width:auto;}
+    .owl-carousel .owl-wrapper-outer{width:auto;}
+    .carousel-portfolio .crop-owl-portfolio{width:auto;}
+    .wrap-container .carousel-portfolio .prev{height:43px; background:#70bfda; top:31%; left:20px;}
+    .wrap-container .carousel-portfolio .next{height:43px; background:#70bfda; top:31%; right:20px;}
+    
+    /*contato*/
+    .wrap-container section.contato form{width:auto;}
+    .wrap-container section.contato form input{width:100%;}
+    .wrap-container section.contato form textarea{width:100%;}
+    
+    /* -------------------------------------------------- */
+	/*	Footer
+	/* -------------------------------------------------- */
+    
     footer .content{padding: 0 20px 0;}
+    footer p{width: 150px; font-size:12px;}
+    footer a#voltar-topo{font-size: 16px; top:16px;}
     
 
 
@@ -60,11 +90,26 @@
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 		
+    /* -------------------------------------------------- */
+	/*	Header
 	/* -------------------------------------------------- */
-	/*	
+    
+    nav .logo-mini{display:block !important;}
+    
+	/* -------------------------------------------------- */
+	/*	Corpo
 	/* -------------------------------------------------- */
 
-    .content{width: auto; padding: 40px 20px 120px; }
+    .content{width: auto; padding: 50px 20px 50px; }
+    
+    /*portfolio*/
+    .wrap-container .carousel-portfolio .prev{top:40%;}
+    .wrap-container .carousel-portfolio .next{top:40%;}
+    
+    /* -------------------------------------------------- */
+	/*	Footer
+	/* -------------------------------------------------- */
+    
     footer .content{padding: 0 20px 0;}
 
 
