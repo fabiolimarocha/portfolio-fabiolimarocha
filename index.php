@@ -45,7 +45,7 @@
 	 
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="js/modernizr.js"></script>
-    <script type="text/javascript" src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 
 	<!-- JS - Owl Carousel Assets (begin) -->
