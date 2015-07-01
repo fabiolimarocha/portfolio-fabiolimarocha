@@ -518,9 +518,7 @@
             
           //lazy background    
           $(function() {
-             $("header.lazy-background").lazyload({
-               effect : "fadeIn"
-             });
+             $("header.lazy-background").lazyload();
           });    
         </script>
         <!-- init lazyload (end) -->
