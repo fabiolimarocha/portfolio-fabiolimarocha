@@ -45,6 +45,7 @@
 	 
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/jquery.lazyload.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 
 	<!-- JS - Owl Carousel Assets (begin) -->
@@ -62,7 +63,7 @@
       ga('send', 'pageview');
 
     </script>
-	<!-- Chamada Google Analytics (end) -->
+	<!-- Chamada Google Analytics (end) -->    
 
 	</head>
 	<body id="home">
@@ -136,7 +137,7 @@
 							<div class="item">
 								<a href="http://caras.uol.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/caras.png" alt="CARAS" title="CARAS">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/caras.png" alt="CARAS" title="CARAS">
 							    	</div> 
 							    	<h2>Portal de Notícias: Editora CARAS</h2>  
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery, AJAX, JSON, XML e CFML</p> 
@@ -506,5 +507,15 @@
 			</div>
 		</footer>
 		
+        <!-- init lazyload (begin) -->
+        <script type="text/javascript" charset="utf-8">
+          $(function() {
+             $("img.lazy").lazyload({
+               effect : "fadeIn"
+             });
+          });
+        </script>
+        <!-- init lazyload (end) -->
+        
 	</body>
 </html>
