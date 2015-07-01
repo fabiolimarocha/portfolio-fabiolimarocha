@@ -68,7 +68,7 @@
 	</head>
 	<body id="home">
 
-		<header class="clearfix">
+		<header class="clearfix lazy-background" data-original="imgs/bg-header.jpg" style="background-image: url('imgs/transparent.gif')">
 
 			<div class="wrap-logo">
 				<div class="logo">
@@ -509,11 +509,19 @@
 		
         <!-- init lazyload (begin) -->
         <script type="text/javascript" charset="utf-8">
+          //lazy padrão
           $(function() {
              $("img.lazy").lazyload({
                effect : "fadeIn"
              });
           });
+            
+          //lazy background    
+          $(function() {
+             $("header.lazy-background").lazyload({
+               effect : "fadeIn"
+             });
+          });    
         </script>
         <!-- init lazyload (end) -->
         

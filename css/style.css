@@ -205,7 +205,7 @@ a{text-decoration:none}
 
 /* Header(begin) */
 
-header{height: 600px; /*background: #70bfda;*/ background: url("../imgs/bg-header.jpg") no-repeat center #70bfda; background-size: cover; background-attachment:fixed; }
+header{height: 600px; /*background: #70bfda;*/ background: no-repeat center #70bfda; background-size: cover; background-attachment:fixed; }
 header .wrap-logo{width: 300px; margin: 140px auto 0; }
 header .wrap-logo .logo{width: 200px; height: 200px; margin: 0 auto; background: #fff; border-radius: 100%; overflow: hidden;}
 header .wrap-logo .logo img{width: 100%;}
