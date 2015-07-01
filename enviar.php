@@ -6,7 +6,7 @@ $mail = new PHPMailer();
 // mandar via SMTP
 $mail->IsSMTP(); 
 // Seu servidor smtp
-$mail->Host = "mail.fabiolimarocha.com.br"; 
+$mail->Host = "smtp.fabiolimarocha.com.br"; 
 // habilita smtp autenticado
 $mail->SMTPAuth = true; 
 // usuário deste servidor smtp

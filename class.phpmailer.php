@@ -106,7 +106,7 @@ class PHPMailer
      * Method to send mail: ("mail", "sendmail", or "smtp").
      * @var string
      */
-    var $Mailer            = "mail";
+    var $Mailer            = "smtp";
 
     /**
      * Sets the path of the sendmail program.
