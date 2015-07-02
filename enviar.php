@@ -1,6 +1,6 @@
 <?
 
-include("phpmailer/class.phpmailer.php");
+include("class.phpmailer.php");
 //instancia a objetos
 $mail = new PHPMailer();
 // mandar via SMTP
