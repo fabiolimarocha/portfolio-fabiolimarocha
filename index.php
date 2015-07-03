@@ -150,7 +150,7 @@
 							<div class="item">
 								<a href="http://jornaldocarro.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/jornaldocarro.jpg" alt="Jornal do Carro" title="Jornal do Carro">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/jornaldocarro.jpg" alt="Jornal do Carro" title="Jornal do Carro">
 							    	</div>  
 							    	<h2>Portal de Notícias: Jornal do Carro</h2>
                                     <p>- Front-End: HTML, CSS e Javascript/jQuery</p>
@@ -165,7 +165,7 @@
                             <div class="item">
 								<a href="http://andrewskphotographer.com/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/andrewsk.jpg" alt="Carol Andrewsk Photographer" title="Carol Andrewsk Photographer">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/andrewsk.jpg" alt="Carol Andrewsk Photographer" title="Carol Andrewsk Photographer">
 							    	</div>  
 							    	<h2>Portfolio Carol Andrewsk Photographer</h2>
                                     <p>- Front-End: HTML, CSS e Javascript/jQuery</p>
@@ -177,7 +177,7 @@
                             <div class="item">
 								<a href="http://aventurasnahistoria.uol.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/aventuras.jpg" alt="Revista Aventuras na História" title="Revista Aventuras na História">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/aventuras.jpg" alt="Revista Aventuras na História" title="Revista Aventuras na História">
 							    	</div>  
 							    	<h2>Portal de Notícias: Revista Aventuras na História</h2>
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery, AJAX, JSON, XML e CFML</p>
@@ -190,7 +190,7 @@
                             <div class="item">
 								<a href="http://bonsfluidos.uol.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/bonsfluidos.jpg" alt="Revista Bons Fluidos" title="Revista Bons Fluidos">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/bonsfluidos.jpg" alt="Revista Bons Fluidos" title="Revista Bons Fluidos">
 							    	</div>  
 							    	<h2>Portal de Notícias: Revista Bons Fluidos</h2>
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery, AJAX, JSON, XML e CFML</p>
@@ -203,7 +203,7 @@
                             <div class="item">
 								<a href="http://www.callstation.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/callstation.jpg" alt="CallStation" title="CallStation">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/callstation.jpg" alt="CallStation" title="CallStation">
 							    	</div>  
 							    	<h2>Site Institucional: CallStation</h2>
 							    	<p>- Front-End: HTML, CSS e Javascript/jQuery</p>
@@ -215,7 +215,7 @@
                             <div class="item">
 								<a href="http://drfulgencio.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/clinicahlpa.jpg" alt="Clínica Dr. Fulgêncio HLPA" title="Clínica Dr. Fulgêncio HLPA">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/clinicahlpa.jpg" alt="Clínica Dr. Fulgêncio HLPA" title="Clínica Dr. Fulgêncio HLPA">
 							    	</div>  
 							    	<h2>Site Institucional: Clínica Dr. Fulgêncio HLPA</h2>
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery</p> 
@@ -227,7 +227,7 @@
                             <div class="item">
 								<a href="http://www.ursinhobranco.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/escola-ursinho.jpg" alt="Escola Ursinho Branco" title="Escola Ursinho Branco">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/escola-ursinho.jpg" alt="Escola Ursinho Branco" title="Escola Ursinho Branco">
 							    	</div>  
 							    	<h2>Site Institucional: Escola Ursinho Branco</h2>
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery</p>
@@ -239,7 +239,7 @@
                             <div class="item">
 								<a href="http://www.espacovilla18.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/espacovilla18.jpg" alt="Espaço Villa 18" title="Espaço Villa 18">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/espacovilla18.jpg" alt="Espaço Villa 18" title="Espaço Villa 18">
 							    	</div>  
 							    	<h2>Site Institucional: Espaço Villa 18</h2>
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery</p> 
@@ -251,7 +251,7 @@
                             <div class="item">
 								<a href="http://www.grupoferrasa.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/ferrasa.jpg" alt="Grupo Ferrasa" title="Grupo Ferrasa">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/ferrasa.jpg" alt="Grupo Ferrasa" title="Grupo Ferrasa">
 							    	</div>  
 							    	<h2>Site Institucional: Grupo Ferrasa</h2>
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery</p>
@@ -264,7 +264,7 @@
                             <div class="item">
 								<a href="http://manequim.uol.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/manequim.jpg" alt="Revista Manequim" title="Revista Manequim">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/manequim.jpg" alt="Revista Manequim" title="Revista Manequim">
 							    	</div>  
 							    	<h2>Portal de Notícias: Revista Manequim</h2>
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery, AJAX, JSON, XML e CFML</p>
@@ -277,7 +277,7 @@
                             <div class="item">
 								<a href="http://maxima.uol.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/maxima.jpg" alt="Revista Máxima" title="Revista Máxima">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/maxima.jpg" alt="Revista Máxima" title="Revista Máxima">
 							    	</div>  
 							    	<h2>Portal de Notícias: Revista Máxima</h2>
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery, AJAX, JSON, XML e CFML</p>
@@ -290,7 +290,7 @@
                             <div class="item">
 								<a href="http://minhacasa.uol.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/minhacasa.jpg" alt="Revista Minha Casa" title="Revista Minha Casa">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/minhacasa.jpg" alt="Revista Minha Casa" title="Revista Minha Casa">
 							    	</div>  
 							    	<h2>Portal de Notícias: Revista Minha Casa</h2>
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery, AJAX, JSON, XML e CFML</p>
@@ -303,7 +303,7 @@
                             <div class="item">
 								<a href="http://minhanovela.uol.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/minhanovela.jpg" alt="Revista Minha Novela" title="Revista Minha Novela">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/minhanovela.jpg" alt="Revista Minha Novela" title="Revista Minha Novela">
 							    	</div>  
 							    	<h2>Portal de Notícias: Revista Minha Novela</h2>
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery, AJAX, JSON, XML e CFML</p>
@@ -336,7 +336,7 @@
                             <div class="item">
 								<a href="http://recreio.uol.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/recreio.jpg" alt="Revista Recreio" title="Revista Recreio">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/recreio.jpg" alt="Revista Recreio" title="Revista Recreio">
 							    	</div>  
 							    	<h2>Portal de Notícias: Revista Recreio</h2>
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery, AJAX, JSON, XML e CFML</p>
@@ -348,7 +348,7 @@
                             <div class="item">
 								<a href="http://sgmbrasil.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/sgm.jpg" alt="SGM Brasil" title="SGM Brasil">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/sgm.jpg" alt="SGM Brasil" title="SGM Brasil">
 							    	</div>  
 							    	<h2>Site Institucional: SGM Brasil</h2>
 							    	<p>- Front-End: HTML, CSS e Javascript/jQuery</p>
@@ -362,7 +362,7 @@
                             <div class="item">
 								<a href="http://soumaiseu.uol.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/soumaiseu.jpg" alt="Revista Sou Mais Eu" title="Revista Sou Mais Eu">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/soumaiseu.jpg" alt="Revista Sou Mais Eu" title="Revista Sou Mais Eu">
 							    	</div>  
 							    	<h2>Portal de Notícias: Revista Sou Mais Eu</h2>
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery, AJAX, JSON, XML e CFML</p>
@@ -375,7 +375,7 @@
                             <div class="item">
 								<a href="http://www.spplast.com.br/sitenovo/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/spplast.jpg" alt="SP Plast" title="SP Plast">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/spplast.jpg" alt="SP Plast" title="SP Plast">
 							    	</div>  
 							    	<h2>Site Institucional: SP Plast</h2>
 							    	<p>- Front-End: HTML, CSS e Javascript/jQuery</p>
@@ -389,7 +389,7 @@
                             <div class="item">
 								<a href="http://www.studioimpress.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/studioimpress.jpg" alt="Studio Impress" title="Studio Impress">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/studioimpress.jpg" alt="Studio Impress" title="Studio Impress">
 							    	</div>  
 							    	<h2>Site Institucional: Studio Impress</h2>
 							    	<p>- Front-End: HTML, CSS e Javascript/jQuery</p>
@@ -402,7 +402,7 @@
                             <div class="item">
 								<a href="http://vidasimples.uol.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/vidasimples.jpg" alt="Revista Vida Simples" title="Revista Vida Simples">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/vidasimples.jpg" alt="Revista Vida Simples" title="Revista Vida Simples">
 							    	</div>  
 							    	<h2>Portal de Notícias: Revista Vida Simples</h2>
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery, AJAX, JSON, XML e CFML</p>
@@ -415,7 +415,7 @@
                             <div class="item">
 								<a href="http://www.vistaconceicao.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/vista.jpg" alt="Vista Conceição" title="Vista Conceição">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/vista.jpg" alt="Vista Conceição" title="Vista Conceição">
 							    	</div>  
 							    	<h2>Hotsite: Vista Conceição</h2>
 							    	<p>- Front-End: HTML, CSS e Javascript/jQuery</p>
@@ -427,7 +427,7 @@
                             <div class="item">
 								<a href="http://vivamais.uol.com.br/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/vivamais.jpg" alt="Revista Viva Mais" title="Revista Viva Mais">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/vivamais.jpg" alt="Revista Viva Mais" title="Revista Viva Mais">
 							    	</div>  
 							    	<h2>Portal de Notícias: Revista Viva Mais</h2>
 							    	<p>- Front-End: HTML, CSS, Javascript/jQuery, AJAX, JSON, XML e CFML</p>
@@ -440,7 +440,7 @@
                             <div class="item">
 								<a href="http://www.imoveissaobento.com.br/property_type/homepage/" target="_blank">
 									<div class="crop-owl-portfolio">
-							    		<img src="imgs/portfolio/vorlene.jpg" alt="Vorlene & Chagas" title="Vorlene & Chagas">
+							    		<img class="lazy" src="imgs/transparent.gif" data-original="imgs/portfolio/vorlene.jpg" alt="Vorlene & Chagas" title="Vorlene & Chagas">
 							    	</div>  
 							    	<h2>Site Institucional: Vorlene & Chagas</h2>
 							    	<p>- Front-End: HTML, CSS e Javascript/jQuery</p>
