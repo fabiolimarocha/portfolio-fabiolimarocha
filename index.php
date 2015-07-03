@@ -49,7 +49,7 @@
 	<script async defer type="text/javascript" src="js/scripts.js"></script>
 
 	<!-- JS - Owl Carousel Assets (begin) -->
-	<script async defer type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
 	<!-- JS - Owl Carousel Assets (end) -->
 
 	<!-- Chamada Google Analytics (begin) -->
