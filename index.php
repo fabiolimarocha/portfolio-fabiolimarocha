@@ -153,9 +153,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 					<p>Eu sou o Fábio Lima. Sou Desenvolvedor Web e trabalho na Editora CARAS, sou apreciador de um bom café, apaixonado pela web e pelos livros do Stephen King, graduado em Análise e Desenvolvimento de Sistemas pela Estácio e torcedor fanático do São Paulo Futebol Clube :)</p>
 
-					<p>Em 2013 trabalhei no Jornal "O Estado de São Paulo", atuando em projetos incríveis como o novo portal do Jornal do Carro e nos especiais da Copa do Mundo 2014.</p>
+					<p>Em 2013 trabalhei no Jornal "O Estado de São Paulo", atuando em projetos como o novo portal do Jornal do Carro e nos especiais da Copa do Mundo 2014.</p>
 
-					<p>Hoje na CARAS trabalho com 11 projetos. São eles, o portal da própria editora (Versão desktop e mobile) e os portais das revistas: Aventuras na História, Bons Fluidos, Manequim, Máxima, Minha Casa, Minha Novela, Recreio, Sou Mais Eu, Vida Simples e Viva Mais.</p>
+					<p>Hoje na CARAS trabalho com 18 projetos incríveis. São eles, o portal da própria editora (Versão desktop e mobile) e os portais das revistas: Ana Maria, Aventuras na História, Bons Fluidos, Contigo!, Manequim, Máxima, Minha Casa, Minha Novela, Placar, Recreio, Sou Mais Eu, Tititi, Vida Simples, Viva Mais, Você RH e Você S/A. (Todos responsivos) </p>
 
 				</div>
 			</section>
