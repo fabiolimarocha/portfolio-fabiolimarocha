@@ -1,4 +1,38 @@
-<!doctype html>
+<?php
+$subjectPrefix = '[Contato via Site]';
+$emailTo = 'contato@fabiolimarocha.com.br';
+
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $name     = stripslashes(trim($_POST['nome']));
+    $email    = stripslashes(trim($_POST['email']));
+    $message  = stripslashes(trim($_POST['mensagem']));
+    $pattern  = '/[\r\n]|Content-Type:|Bcc:|Cc:/i';
+
+    if (preg_match($pattern, $name) || preg_match($pattern, $email)) {
+        die("Header injection detected");
+    }
+
+    $emailIsValid = preg_match('/^[^0-9][A-z0-9._%+-]+([.][A-z0-9_]+)*[@][A-z0-9_]+([.][A-z0-9_]+)*[.][A-z]{2,4}$/', $email);
+
+    if($name && $email && $emailIsValid && $message){
+        $subject = "$subjectPrefix";
+        $body = "Nome: $name <br /> Email: $email <br /> Mensagem: $message";
+
+        $headers  = 'MIME-Version: 1.1' . PHP_EOL;
+        $headers .= 'Content-type: text/html; charset=utf-8' . PHP_EOL;
+        $headers .= "From: $name <$email>" . PHP_EOL;
+        $headers .= "Return-Path: $emailTo" . PHP_EOL;
+        $headers .= "Reply-To: $email" . PHP_EOL;
+        $headers .= "X-Mailer: PHP/". phpversion() . PHP_EOL;
+
+        mail($emailTo, $subject, $body, $headers);
+        $emailSent = true;
+
+    } else {
+        $hasError = true;
+    }
+}
+?><!doctype html>
 <html lang="pt-BR">
 	<head>
 
@@ -480,17 +514,29 @@
 			<section class="contato">
 				<div class="content clearfix">
 					<h1><a id="contato"><span>} function</span> Contato() <span>{</span></a></h1>
+                    
+                    <?php if(!empty($emailSent)): ?>
+                        <div class="col-md-6 col-md-offset-3">
+                            <div class="alert alert-success text-center">Sua mensagem foi enviada com sucesso.</div>
+                        </div>
+                    <?php else: ?>
+                        <?php if(!empty($hasError)): ?>
+                        <div class="col-md-5 col-md-offset-4">
+                            <div class="alert alert-danger text-center">Houve um erro no envio, tente novamente mais tarde.</div>
+                        </div>
+                        <?php endif; ?>
 
-					<form name="contato" action="enviar.php" method="POST">
+					<form name="contato" action="<?php echo $_SERVER['REQUEST_URI']; ?>" method="POST">
 						<label>Nome:</label>
 						<input type="text" name="nome" id="nome" required>
 						<label>E-mail:</label>
 						<input type="text" name="email" id="email" required>
 						<label>Mensagem:</label>
-						<textarea id="mensagem" required></textarea>
+						<textarea id="mensagem" name="mensagem" required></textarea>
 						<input type="submit" class="btn-enviar" name="enviar" value="Enviar">
 					</form>
-
+                    <?php endif; ?>
+                    
 					<p>contato@fabiolimarocha.com.br</p>
 
 					<span class="fecha-chave">}</span>
