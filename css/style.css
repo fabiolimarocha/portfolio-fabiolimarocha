@@ -285,6 +285,7 @@ input[type="text"]:focus, textarea:focus{border-color: #70bfda !important; box-s
     font-size: 26px;
     text-align: center;
     text-shadow: 1px 1px 3px #777;
+    margin-bottom: 40px;
 }
 .wrap-container section.contato span.error{
     color: red;
