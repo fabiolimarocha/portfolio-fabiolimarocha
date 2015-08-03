@@ -277,6 +277,26 @@ input[type="text"]:focus, textarea:focus{border-color: #70bfda !important; box-s
 .wrap-container section.contato p{color: #353535; text-align: center; margin: 20px 0; font-size: 20px; font-family: "Whitney Book", arial, sans-serif; }
 .wrap-container section.contato span.fecha-chave{font-size: 28px; text-align: center; display: block; color: #777; font-family: "Whitney Book", arial, sans-serif;}
 
+/*Mensagens de resposta do form (begin)*/
+.wrap-container section.contato span.sucess{
+    color: green;
+    display: block;
+    font-family: "Whitney Book",arial,sans-serif;
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 1px 1px 3px #777;
+}
+.wrap-container section.contato span.error{
+    color: red;
+    display: block;
+    font-family: "Whitney Book",arial,sans-serif;
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 1px 1px 3px #777;
+    margin-bottom: 40px;
+}
+/*Mensagens de resposta do form (end)*/
+
 /* Corpo (end) */
 
 /* Footer (begin) */

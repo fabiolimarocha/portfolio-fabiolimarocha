@@ -516,14 +516,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 					<h1><a id="contato"><span>} function</span> Contato() <span>{</span></a></h1>
                     
                     <?php if(!empty($emailSent)): ?>
-                        <div class="col-md-6 col-md-offset-3">
-                            <div class="alert alert-success text-center">Sua mensagem foi enviada com sucesso.</div>
-                        </div>
+                        <span class="sucess">Sua mensagem foi enviada com sucesso.</span>
                     <?php else: ?>
                         <?php if(!empty($hasError)): ?>
-                        <div class="col-md-5 col-md-offset-4">
-                            <div class="alert alert-danger text-center">Houve um erro no envio, tente novamente mais tarde.</div>
-                        </div>
+                            <span class="error">Houve um erro no envio, tente novamente mais tarde.</span>
                         <?php endif; ?>
 
 					<form name="contato" action="<?php echo $_SERVER['REQUEST_URI']; ?>" method="POST">
