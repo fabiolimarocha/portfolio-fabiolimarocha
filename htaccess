@@ -1,7 +1,0 @@
-<filesMatch ".(ico|jpg|jpeg|png|gif|swf|css|js)$">
-Header set Expires "Sun, 30 Apr 2090 20:00:00 GMT"
-</filesMatch>
-
-<filesMatch "\.(gif|jpg|png|css|js|pdf|txt)">
-    FileETag All
-</filesMatch>
