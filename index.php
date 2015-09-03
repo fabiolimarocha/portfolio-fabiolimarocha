@@ -546,7 +546,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         
         <!-- scrits padrão (begin) -->
         <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-        <script type="text/javascript" src="js/modernizr.js"></script>
+        <script type="text/javascript" src="js/modernizr.min.js"></script>
         <script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
         <script async defer type="text/javascript" src="js/scripts.js"></script>
         <!-- scrits padrão (end) -->
