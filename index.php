@@ -71,15 +71,15 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
   	<meta itemprop="publisher" content="Fábio Lima Rocha - Web Developer">
 
     <!-- CSS geral --> 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="http://static.fabiolimarocha.com.br/css/style.css">
 	
 	<!-- CSS - Owl Carousel Assets (begin) -->
-	<link type="text/css" href="css/owl-carousel/owl.carousel.css" rel="stylesheet">
-	<link type="text/css" href="css/owl-carousel/owl.theme.css" rel="stylesheet">
+	<link type="text/css" href="http://static.fabiolimarocha.com.br/css/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<link type="text/css" href="http://static.fabiolimarocha.com.br/css/owl-carousel/owl.theme.css" rel="stylesheet">
 	<!-- CSS - Owl Carousel Assets (end) -->
         
     <!-- CSS responsive -->    
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="http://static.fabiolimarocha.com.br/css/responsive.css">
 
 	<!-- Chamada Google Analytics (begin) -->
 	<script>
@@ -545,14 +545,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 		</footer>
         
         <!-- scrits padrão (begin) -->
-        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-        <script type="text/javascript" src="js/modernizr.min.js"></script>
-        <script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
-        <script async defer type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript" src="http://static.fabiolimarocha.com.br/js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="http://static.fabiolimarocha.com.br/js/modernizr.min.js"></script>
+        <script type="text/javascript" src="http://static.fabiolimarocha.com.br/js/jquery.lazyload.min.js"></script>
+        <script async defer type="text/javascript" src="http://static.fabiolimarocha.com.br/js/scripts.js"></script>
         <!-- scrits padrão (end) -->
 
         <!-- JS - Owl Carousel Assets (begin) -->
-        <script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="http://static.fabiolimarocha.com.br/js/owl-carousel/owl.carousel.min.js"></script>
         <!-- JS - Owl Carousel Assets (end) -->
 		
         <!-- init lazyload (begin) -->
