@@ -217,13 +217,13 @@ header .wrap-logo .info h2{color: #fff; text-align: center; font-size: 28px; fon
 
 /* Nav menu (begin) */
 
-nav{width: 100%; position: fixed; top: 0; padding: 10px 0 1px; background: url("../imgs/bg-nav.png"); z-index: 9999;}
+nav{width: 100%; position: fixed; top: 0; padding: 10px 0 1px; background: url("http://static.fabiolimarocha.com.br/imgs/bg-nav.png"); z-index: 9999;}
 
 nav .logo-mini{width: 53px; height: 53px; background: #fff; margin-left: 30px; border-radius: 100%; overflow: hidden; float: left; display: none;}
 nav .logo-mini img{width: 100%;}
 
-nav a.icon-menu{width: 53px; height: 62px; display: block; margin-left: 30px; float: left; background: url("../imgs/icon-menu-white.png") no-repeat 0 -1px;}
-nav ul.menu {list-style: none; float: left; width: 100%; position: absolute; left: 0; top: 72px; display: none; padding-left: 30px; padding-bottom: 25px; background: url("../imgs/bg-nav-menu.png"); border-bottom: 3px solid #fff;}
+nav a.icon-menu{width: 53px; height: 62px; display: block; margin-left: 30px; float: left; background: url("http://static.fabiolimarocha.com.br/imgs/icon-menu-white.png") no-repeat 0 -1px;}
+nav ul.menu {list-style: none; float: left; width: 100%; position: absolute; left: 0; top: 72px; display: none; padding-left: 30px; padding-bottom: 25px; background: url("http://static.fabiolimarocha.com.br/imgs/bg-nav-menu.png"); border-bottom: 3px solid #fff;}
 nav ul.menu span{font-size: 18px; color: #777; font-family: "Whitney Book", arial, sans-serif;}
 nav ul.menu span:first-child{padding-top: 25px; display: block;}
 nav ul.menu li{margin-left: 20px;}
@@ -232,7 +232,7 @@ nav ul.menu li a{text-decoration: none; text-align: left; font-size: 24px; color
 nav ul.redessociais{list-style: none; float: right; margin-right: 30px;}
 nav ul.redessociais li{float: left; margin-right: 10px;}
 nav ul.redessociais li:last-child{margin-right: 0;}
-nav ul.redessociais li a{width: 53px; height: 53px; display: block; background: url("../imgs/sprite-redessociais-white.png");}
+nav ul.redessociais li a{width: 53px; height: 53px; display: block; background: url("http://static.fabiolimarocha.com.br/imgs/sprite-redessociais-white.png");}
 nav ul.redessociais li a.icon-facebook{background-position: -7px -4px}
 nav ul.redessociais li a.icon-twitter{background-position: -62px -4px;}
 nav ul.redessociais li a.icon-linkedin{background-position: -118px -4px;}
@@ -263,11 +263,11 @@ nav ul.redessociais li a.icon-youtube{background-position: -173px -4px;}
 .carousel-portfolio p{color: #353535; text-align: center; font-size: 16px; font-family: "Whitney Book", arial, sans-serif; }
 .carousel-portfolio span{color: #70bfda; margin-top: 20px; text-align: center; display: block; font-size: 16px; font-family: "Whitney Book", arial, sans-serif; }
 
-.wrap-container .carousel-portfolio .prev {background: url("../imgs/seta-left.png") repeat; cursor: pointer; display: block; float: left; height: 194px; position: absolute; left: 40px; top: 320px; width: 43px;}
-.wrap-container .carousel-portfolio .next {background: url("../imgs/seta-right.png") repeat; cursor: pointer; display: block; float: right; height: 194px; position: absolute; right: 40px; top: 320px; width: 43px;}
+.wrap-container .carousel-portfolio .prev {background: url("http://static.fabiolimarocha.com.br/imgs/seta-left.png") repeat; cursor: pointer; display: block; float: left; height: 194px; position: absolute; left: 40px; top: 320px; width: 43px;}
+.wrap-container .carousel-portfolio .next {background: url("http://static.fabiolimarocha.com.br/imgs/seta-right.png") repeat; cursor: pointer; display: block; float: right; height: 194px; position: absolute; right: 40px; top: 320px; width: 43px;}
 /* carousel */
 
-.wrap-container section.contato{background: url("../imgs/bg-quadrinhos-opacity.jpg");}
+.wrap-container section.contato{background: url("http://static.fabiolimarocha.com.br/imgs/bg-quadrinhos-opacity.jpg");}
 .wrap-container section.contato form{width: 400px; margin:0px auto 20px}
 .wrap-container section.contato form label{display: block; color: #353535; text-align: left; font-size: 22px; font-family: "Whitney Book", arial, sans-serif;}
 .wrap-container section.contato form input{width: 400px; margin-bottom: 15px; border:1px solid #ccc; display: block; color: #353535; text-align: left; font-size: 22px; font-family: "Whitney Book", arial, sans-serif;}

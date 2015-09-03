@@ -26,12 +26,12 @@ function Nav_AlternaCor(){
     scroll_page = $(document).scrollTop();
     if (scroll_page > 527){
       $("nav").css("background","#70bfda");
-      $("nav ul.menu").css("background","url('imgs/bg-nav-menu-blue.png')").css("border-color","#70bfda");
+      $("nav ul.menu").css("background","url('http://static.fabiolimarocha.com.br/imgs/bg-nav-menu-blue.png')").css("border-color","#70bfda");
       $("nav .logo-mini").show();
     }
     else {
-       $("nav").css("background","url('imgs/bg-nav.png')");
-       $("nav ul.menu").css("background","url('imgs/bg-nav-menu.png')").css("border-color","#fff");
+       $("nav").css("background","url('http://static.fabiolimarocha.com.br/imgs/bg-nav.png')");
+       $("nav ul.menu").css("background","url('http://static.fabiolimarocha.com.br/imgs/bg-nav-menu.png')").css("border-color","#fff");
        $("nav .logo-mini").hide();
     }
   }); 
