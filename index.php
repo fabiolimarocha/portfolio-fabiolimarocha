@@ -552,7 +552,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         <!-- scrits padrão (end) -->
 
         <!-- JS - Owl Carousel Assets (begin) -->
-        <script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+        <script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
         <!-- JS - Owl Carousel Assets (end) -->
 		
         <!-- init lazyload (begin) -->
