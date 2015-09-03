@@ -251,6 +251,7 @@ nav ul.redessociais li a.icon-youtube{background-position: -173px -4px;}
 .wrap-container section h1 span{font-size: 22px; color: #777; font-family: "Whitney Book", arial, sans-serif;}
 
 .wrap-container section.sobre{}
+.wrap-container section.sobre p a{text-decoration:none; color:#70bfda;}
 .wrap-container section.sobre p{color: #353535; text-align: justify; font-size: 22px; font-family: "Whitney Book", arial, sans-serif; margin-bottom: 20px;}
 
 .wrap-container section.portfolio{}
@@ -279,21 +280,21 @@ input[type="text"]:focus, textarea:focus{border-color: #70bfda !important; box-s
 
 /*Mensagens de resposta do form (begin)*/
 .wrap-container section.contato span.sucess{
-    color: green;
+    color: #70bfda;
     display: block;
     font-family: "Whitney Book",arial,sans-serif;
-    font-size: 26px;
+    font-size: 34px;
     text-align: center;
-    text-shadow: 1px 1px 3px #777;
+    text-shadow: 1px 1px 1px #777;
     margin-bottom: 40px;
 }
 .wrap-container section.contato span.error{
     color: red;
     display: block;
     font-family: "Whitney Book",arial,sans-serif;
-    font-size: 26px;
+    font-size: 34px;
     text-align: center;
-    text-shadow: 1px 1px 3px #777;
+    text-shadow: 1px 1px 1px #777;
     margin-bottom: 40px;
 }
 /*Mensagens de resposta do form (end)*/
