@@ -101,7 +101,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 			<div class="wrap-logo">
 				<div class="logo">
-					<a><img class="lazy" src="imgs/transparent.gif" data-original="imgs/logo.png" alt="Fábio Lima Rocha - Web Developer" title="Fábio Lima Rocha - Web Developer"></a>
+					<a><img class="lazy" src="http://static.fabiolimarocha.com.br/imgs/transparent.gif" data-original="http://static.fabiolimarocha.com.br/imgs/logo.png" alt="Fábio Lima Rocha - Web Developer" title="Fábio Lima Rocha - Web Developer"></a>
 				</div>
 				<div class="info">
 					<h1>Fábio Lima Rocha</h1>
@@ -128,7 +128,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 			</div>
 
 			<div class="logo-mini">
-				<img src="imgs/logo.png" alt="Fábio Lima Rocha - Web Developer" title="Fábio Lima Rocha - Web Developer">
+				<img src="http://static.fabiolimarocha.com.br/imgs/logo.png" alt="Fábio Lima Rocha - Web Developer" title="Fábio Lima Rocha - Web Developer">
 			</div>
 
 			<ul class="redessociais">
