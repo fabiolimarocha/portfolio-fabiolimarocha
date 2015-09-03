@@ -80,15 +80,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         
     <!-- CSS responsive -->    
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-	 
-	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript" src="js/modernizr.js"></script>
-    <script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
-	<script async defer type="text/javascript" src="js/scripts.js"></script>
-
-	<!-- JS - Owl Carousel Assets (begin) -->
-	<script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
-	<!-- JS - Owl Carousel Assets (end) -->
 
 	<!-- Chamada Google Analytics (begin) -->
 	<script>
@@ -552,6 +543,17 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 				<a id="voltar-topo">Voltar_ao_topo();</a>
 			</div>
 		</footer>
+        
+        <!-- scrits padrão (begin) -->
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/modernizr.js"></script>
+        <script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
+        <script async defer type="text/javascript" src="js/scripts.js"></script>
+        <!-- scrits padrão (end) -->
+
+        <!-- JS - Owl Carousel Assets (begin) -->
+        <script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+        <!-- JS - Owl Carousel Assets (end) -->
 		
         <!-- init lazyload (begin) -->
         <script type="text/javascript" charset="utf-8">
