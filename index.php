@@ -1,4 +1,8 @@
 <?php
+ob_start("ob_gzhandler");
+?>
+
+<?php
 $subjectPrefix = '[Contato via Site]';
 $emailTo = 'contato@fabiolimarocha.com.br';
 
