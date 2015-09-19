@@ -539,7 +539,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 		<footer>
 			<div class="content clearfix">
-				<p>© 2015 - Fábio Lima Rocha - Todos os direitos reservados.</p>
+				<p>Built with &#10084; by <a href="https://br.linkedin.com/pub/f%C3%A1bio-lima-rocha/3b/572/61" target="_blank">Fábio Lima Rocha</a> - Copyright 2015</p>
 				<a id="voltar-topo">Voltar_ao_topo();</a>
 			</div>
 		</footer>
