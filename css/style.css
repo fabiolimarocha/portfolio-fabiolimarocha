@@ -306,6 +306,7 @@ input[type="text"]:focus, textarea:focus{border-color: #70bfda !important; box-s
 footer{height: 50px; background: #353535; position: relative;}
 footer .content{padding: 0;}
 footer p{color: #fff; top: 14px; position: relative; text-align: left; float: left; font-size: 18px; font-family: "Whitney Book", arial, sans-serif;}
+footer a{color: #fff; text-decoration: none;}
 footer a#voltar-topo{position: relative; cursor:pointer; display: block; text-decoration: none; top: 14px; float:right; color: #fff; text-align: left; font-size: 18px; font-family: "Whitney Book", arial, sans-serif;}
 
 /* Footer (end) */
