@@ -40,7 +40,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html lang="pt-BR">
 	<head>
 
-	<title>Fábio Lima Rocha</title>
+	<title>Fábio Lima Rocha - Portfólio</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
